@@ -12,24 +12,54 @@ function post_slider(){
 		<div class="uk-width-4-10 sub-pages">
 			<div class="uk-grid line-1">
 				<div class="uk-width-1-3">
-					<a href="#" class="link-sub"><i class="uk-icon-file-text-o uk-icon-large"></i></a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-file-text-o uk-icon-large"></i>
+							<p>Relatórios</p>
+						</div>
+					</a>
 				</div>
 				<div class="uk-width-1-3">
-					<a href="#" class="link-sub"><i class="uk-icon-briefcase uk-icon-large"></i></a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-briefcase uk-icon-large"></i>
+							<p>Trabalhos</p>
+						</div>
+					</a>
 				</div>
 				<div class="uk-width-1-3">
-						<a href="#" class="link-sub"><i class="uk-icon-calendar uk-icon-large"></i></a>
+						<a href="#" class="link-sub">
+							<div class="square">
+								<i class="uk-icon-calendar uk-icon-large"></i>
+								<p>Eventos</p>
+							</div>
+						</a>
 				</div>
 			</div>
 			<div class="uk-grid line-1">
 				<div class="uk-width-1-3">
-					<a href="#" class="link-sub"><i class="uk-icon-leaf uk-icon-large"></i></a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-leaf uk-icon-large"></i>
+							<p>Safras</p>
+						</div>
+					</a>
 				</div>
 				<div class="uk-width-1-3">
-					<a href="#" class="link-sub"><i class="uk-icon-book uk-icon-large"></i></a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-book uk-icon-large"></i>
+							<p>Treinamentos</p>
+						</div>
+					</a>
 				</div>
 				<div class="uk-width-1-3">
-					<a href="#" class="link-sub"><i class="uk-icon-line-chart uk-icon-large"></i></a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-line-chart uk-icon-large"></i>
+							<p>Metas</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
