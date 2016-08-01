@@ -20,6 +20,7 @@ body{
 .tm-header{
   padding: 10px;
   background-color: #263238;
+  border-bottom: 3px solid #bdc3c7;
 }
 /*
 a{
@@ -126,3 +127,40 @@ div .text{
   font-weight: bold;
   color: rgba(68, 68, 68, .7);
 }
+
+/*Eventos section*/
+.events, .form{
+  margin-top: 100px;
+  text-align: center;
+}
+
+hr{
+  padding: 0;
+  width: 100px;
+  margin: 0 auto;
+  border-top: medium double #bdc3c7;
+  padding-bottom: 30px;
+}
+
+/*Apipa section*/
+.apipa{
+  margin-top: 50px;
+  text-align: center;
+}
+.apipa p{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*Form section*/
+.form p{
+  font-size: 17px;
+  color: #95a5a6;
+}
+.form .tel{
+  font-size: 20px;
+}
+/*Contact form style*/

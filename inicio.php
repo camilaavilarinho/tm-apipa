@@ -69,19 +69,49 @@ function post_slider(){
 	<?php
 
 }
-/*add_action( 'beans_header_after_markup', 'beans_child_view_add_slider' );
-function beans_child_view_add_slider() {
-
+add_action( 'beans_main_prepend_markup', 'events' );
+function events() {
 	?>
-	<div data-uk-slider>
-		<div class="uk-slider-container">
-			<h1>Teste</h1>
-		</div>
+	<div class="events">
+		<h2>EVENTOS</h2>
+		<hr>
+		<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
 	</div>
 
 	<?php
+}
 
-}*/
+add_action( 'beans_main_prepend_markup', 'apipa' );
+function apipa() {
+	?>
+	<div class="apipa">
+		<h2>CONHEÇA A APIPA</h2>
+		<hr>
+		<p class="uk-clearfix">
+			<img class="uk-align-medium-left" src="wp-content/themes/tm-apipa/algodao.jpg" alt="" width="500" height="300">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+
+	<?php
+}
+
+add_action( 'beans_main_prepend_markup', 'form' );
+function form() {
+	?>
+	<div class="form">
+		<h2>FALE CONOSCO</h2>
+		<hr>
+		<p>Você pode ligar, mandar um email ou preencher o formulário abaixo e entrar em contato direto conosco</p>
+		<p class="tel">Teresina - PI: (86) 3221 7100</p>
+		<p class="tel">Uruçuí - PI: (89) 3544 3089</p>
+		<?php echo do_shortcode( '[contact-form-7 id="60" title="Contato"]' ); ?>
+
+	</div>
+
+	<?php
+}
+
 
 beans_remove_action( 'beans_post_title' );
 
