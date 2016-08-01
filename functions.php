@@ -146,3 +146,10 @@ function banks_primary_menu_search() {
 
 }
 beans_add_attribute( 'beans_search_form', 'class', 'search' );
+
+/*Footer*/
+beans_modify_action_callback( 'beans_footer_partial_template', 'example_footer' );
+
+function example_footer() {
+    // Replace footer the footer structural markup.
+}
