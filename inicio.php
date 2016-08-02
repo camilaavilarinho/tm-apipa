@@ -106,10 +106,17 @@ function form() {
 		<p class="tel">Teresina - PI: (86) 3221 7100</p>
 		<p class="tel">Uruçuí - PI: (89) 3544 3089</p>
 		<!--<?php echo do_shortcode( '[contact-form-7 id="60" title="Contato"]' ); ?> Fapepi pc-->
-		<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?> 
-
+		<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?>
 	</div>
+	<?php
+}
 
+add_action( 'beans_main_prepend_markup', 'section_map' );
+function section_map() {
+	?>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.0357660765662!2d-42.80682508523603!3d-5.097919596300082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3742bd2857c9%3A0x2593dfb9dbcea0f7!2sAPIPA+-+ASSOCIA%C3%87%C3%83O+PIAUIENSE+DOS+PRODUTORES+DE+ALGOD%C3%83O!5e0!3m2!1spt-BR!2sbr!4v1470160639941" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 	<?php
 }
 

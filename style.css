@@ -107,7 +107,7 @@ div .text{
   font-size: 17px;
 }
 .sub-pages .link-sub{
-  color: #ddd;
+  color: #fff;
   text-decoration: none;
 }
 .square{
@@ -197,3 +197,28 @@ hr{
   padding-right: 25px;
   border-color: #fff;
 }
+
+/* Map section */
+.map{
+  margin-top: 50px;
+}
+
+/* Footer */
+/*.tm-footer{
+  background-color: #263238;
+}
+.logo .tm-site-branding{
+  margin-left: 35%;
+  margin-bottom: 30px;
+}
+
+.footer-links{
+  margin-top: 10px;
+  text-align: center;
+}
+.footer-links a{
+  margin-right: 30px;
+  padding: 20px;
+  border: 1px solid #fff;
+  transform: rotate(45deg);
+}*/

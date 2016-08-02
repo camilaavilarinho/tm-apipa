@@ -148,8 +148,24 @@ function banks_primary_menu_search() {
 beans_add_attribute( 'beans_search_form', 'class', 'search' );
 
 /*Footer*/
-beans_modify_action_callback( 'beans_footer_partial_template', 'example_footer' );
+/*beans_modify_action_callback( 'beans_footer_content', 'apipa_footer' );
 
-function example_footer() {
-    // Replace footer the footer structural markup.
-}
+function apipa_footer() {
+	?>
+	<div class="logo uk-container uk-container-center">
+		<?php beans_site_branding(); ?>
+	</div>
+	<div class="menu">
+		<?php echo beans_primary_menu(); ?>
+	</div>
+	<div class="social">
+		<div class="uk-grid">
+			<div class=".uk-width-1-1 footer-links">
+				<a href="#"><i class="uk-icon-twitter uk-icon-medium link"></i></a>
+				<a href="#"><i class="uk-icon-facebook uk-icon-medium link"></i></a>
+				<a href="#"><i class="uk-icon-google-plus uk-icon-medium link"></i></a>
+			</div>
+		</div>
+	</div>
+	<?php
+}*/
