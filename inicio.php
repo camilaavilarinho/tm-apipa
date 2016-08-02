@@ -106,7 +106,7 @@ function form() {
 		<p class="tel">Teresina - PI: (86) 3221 7100</p>
 		<p class="tel">Uruçuí - PI: (89) 3544 3089</p>
 		<!--<?php echo do_shortcode( '[contact-form-7 id="60" title="Contato"]' ); ?> Fapepi pc-->
-		<!--<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?> Meu note-->
+		<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?> 
 
 	</div>
 

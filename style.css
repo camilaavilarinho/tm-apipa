@@ -164,3 +164,36 @@ hr{
   font-size: 20px;
 }
 /*Contact form style*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+  color: #ddd;
+  border-radius: 0;
+  width: 100%
+}
+
+.wpcf7 textarea{
+  width: 50%;
+}
+
+.wpcf7-form .singleline ol {
+  list-style: none;
+  margin: 0;
+  width: 50%;
+}
+
+.wpcf7-form .singleline li{
+  display: inline-block;
+  /*margin-right: 10px;
+  padding-right: 10px;*/
+  width: 25%;
+}
+
+.wpcf7 input[type="submit"]{
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: #fff;
+}
