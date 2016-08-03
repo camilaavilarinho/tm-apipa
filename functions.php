@@ -148,7 +148,7 @@ function banks_primary_menu_search() {
 beans_add_attribute( 'beans_search_form', 'class', 'search' );
 
 /*Footer*/
-/*beans_modify_action_callback( 'beans_footer_content', 'apipa_footer' );
+beans_modify_action_callback( 'beans_footer_content', 'apipa_footer' );
 
 function apipa_footer() {
 	?>
@@ -161,11 +161,15 @@ function apipa_footer() {
 	<div class="social">
 		<div class="uk-grid">
 			<div class=".uk-width-1-1 footer-links">
-				<a href="#"><i class="uk-icon-twitter uk-icon-medium link"></i></a>
-				<a href="#"><i class="uk-icon-facebook uk-icon-medium link"></i></a>
-				<a href="#"><i class="uk-icon-google-plus uk-icon-medium link"></i></a>
+				<a href="#"><div class="link-border"><i class="uk-icon-twitter uk-icon-medium"></i></div></a>
+				<a href="#"><div class="link-border"><i class="uk-icon-facebook uk-icon-medium"></i></div></a>
+				<a href="#"><div class="link-border"><i class="uk-icon-google-plus uk-icon-medium"></i></div></a>
+				<!--<div class="up-link">-->
+					<a href="#" class="up-link"><i class="uk-icon-chevron-up "></i></a>
+				<!--</div>-->
 			</div>
 		</div>
 	</div>
+
 	<?php
-}*/
+}
