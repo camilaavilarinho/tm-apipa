@@ -122,6 +122,7 @@ function section_map() {
 
 
 beans_remove_action( 'beans_post_title' );
+beans_remove_markup( 'beans_fixed_wrap[_main]' );
 
 
 
