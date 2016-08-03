@@ -106,7 +106,8 @@ function form() {
 		<p class="tel">Teresina - PI: (86) 3221 7100</p>
 		<p class="tel">Uruçuí - PI: (89) 3544 3089</p>
 		<!--<?php echo do_shortcode( '[contact-form-7 id="60" title="Contato"]' ); ?> Fapepi pc-->
-		<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?>
+		<!--<?php echo do_shortcode( '[contact-form-7 id="58" title="Contato"]' ); ?>Camila PC-->
+		<?php echo do_shortcode( '[contact-form-7 id="31" title="Contato"]' ); ?>
 	</div>
 	<?php
 }
@@ -123,6 +124,7 @@ function section_map() {
 
 beans_remove_action( 'beans_post_title' );
 beans_remove_markup( 'beans_fixed_wrap[_main]' );
+beans_remove_markup( 'beans_post' );
 
 
 

@@ -14,7 +14,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
 
 body{
-  /*font-family: 'PT Sans Narrow', sans-serif;*/
   font-family: 'Source Sans Pro', sans-serif;
 }
 .tm-header{
@@ -96,6 +95,7 @@ div .text{
 /*Slider section*/
 .tm-main{
   padding-top: 25px;
+  padding-bottom: 0;
 }
 .section-slider{
   margin-left: 40px;
@@ -247,10 +247,3 @@ hr{
   color: #fff;
   background-color: #4cAf50;
 }
-
-/*.up-link a{
-  /*width: 50px;
-  height: 50px;
-  border: 1px solid #fff;
-  padding: 10px;
-}*/
