@@ -156,7 +156,18 @@ function apipa_footer() {
 		<?php beans_site_branding(); ?>
 	</div>
 	<div class="menu">
-		<?php echo beans_primary_menu(); ?>
+		<?php /* beans_primary_menu();*/ ?>
+		<?php
+		wp_nav_menu( array(
+			'menu' => 'Footer Menu',
+			'menu_class' => 'uk-subnav uk-subnav-line',
+			'container' => 'div',
+			'container_class' => 'uk-visible-large uk-navbar-nav',
+			'echo' => true,
+			'fallback_cb' => false,
+			'theme_location' => 'footer-menu'
+		) );
+		?>
 	</div>
 	<div class="social">
 		<div class="uk-grid">
