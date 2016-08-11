@@ -6,10 +6,10 @@ add_action( 'beans_main_prepend_markup', 'post_slider' );
 function post_slider(){
 	?>
 	<div class="uk-grid section-slider">
-		<div class="uk-width-6-10">
+		<div class="uk-width-medium-6-10">
 			<?php wdp_slider(1); ?>
 		</div>
-		<div class="uk-width-4-10 sub-pages">
+		<div class="uk-width-medium-4-10 sub-pages">
 			<div class="uk-grid line-1">
 				<div class="uk-width-1-3">
 					<a href="#" class="link-sub">
