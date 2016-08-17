@@ -1,6 +1,13 @@
 <?php
 /* Template Name: Inicio */
-
+add_action( 'beans_main_prepend_markup', 'stock' );
+function stock(){
+	?>
+	<div class="stock">
+		<?php echo do_shortcode('[stock-ticker name="Algodao"]'); ?>
+	</div>
+	<?php
+}
 add_action( 'beans_main_prepend_markup', 'post_slider' );
 
 function post_slider(){
@@ -28,12 +35,12 @@ function post_slider(){
 					</a>
 				</div>
 				<div class="uk-width-1-3">
-						<a href="#" class="link-sub">
-							<div class="square">
-								<i class="uk-icon-calendar uk-icon-large"></i>
-								<p>Eventos</p>
-							</div>
-						</a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-calendar uk-icon-large"></i>
+							<p>Eventos</p>
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="uk-grid line-1">
@@ -64,10 +71,7 @@ function post_slider(){
 			</div>
 		</div>
 	</div>
-
-
 	<?php
-
 }
 add_action( 'beans_main_prepend_markup', 'events' );
 function events() {
