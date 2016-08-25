@@ -77,9 +77,18 @@ add_action( 'beans_main_prepend_markup', 'tables' );
 function tables() {
 	?>
 	<div class="tables">
-		<h2>COTAÇÕES DO ALGODÃO</h2>
-		<hr>
-		<?php echo do_shortcode('[supsystic-tables id="1"]'); ?>
+		<div class="uk-grid">
+			<div class="uk-width-medium-1-2 table">
+				<h2>COTAÇÕES DO ALGODÃO</h2>
+				<hr>
+				<?php echo supsystic_tables_get(1); ?>
+			</div>
+			<div class="uk-width-medium-1-2 table">
+				<h2>CAROÇO DO ALGODÃO</h2>
+				<hr>
+				<?php echo supsystic_tables_get(2); ?>
+			</div>
+		</div>
 	</div>
 	<?php
 }
@@ -92,7 +101,6 @@ function events() {
 		<hr>
 		<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
 	</div>
-
 	<?php
 }
 

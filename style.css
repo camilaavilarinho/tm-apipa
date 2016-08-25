@@ -136,6 +136,23 @@ div .text{
   }
 }
 
+/* Tables section */
+.tables{
+  margin-top: 100px;
+  text-align: center;
+}
+.table{
+  padding-left: 60px;
+  padding-right: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .table{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
 /*Eventos section*/
 .events, .form{
   margin-top: 100px;
