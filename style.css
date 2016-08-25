@@ -128,6 +128,14 @@ div .text{
   color: rgba(68, 68, 68, .7);
 }
 
+@media only screen and (max-width: 768px) {
+  .square{
+    width: 80px;
+    height: 120px;
+    font-size: 13px;
+  }
+}
+
 /*Eventos section*/
 .events, .form{
   margin-top: 100px;
