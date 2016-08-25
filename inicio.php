@@ -73,6 +73,17 @@ function post_slider(){
 	</div>
 	<?php
 }
+add_action( 'beans_main_prepend_markup', 'tables' );
+function tables() {
+	?>
+	<div class="tables">
+		<h2>COTAÇÕES DO ALGODÃO</h2>
+		<hr>
+		<?php echo do_shortcode('[supsystic-tables id="1"]'); ?>
+	</div>
+	<?php
+}
+
 add_action( 'beans_main_prepend_markup', 'events' );
 function events() {
 	?>
