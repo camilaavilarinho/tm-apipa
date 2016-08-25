@@ -12,7 +12,7 @@ add_action( 'beans_main_prepend_markup', 'post_slider' );
 
 function post_slider(){
 	?>
-	<div class="uk-grid section-slider .uk-container-center">
+	<div class="uk-grid section-slider">
 		<div class="uk-width-medium-6-10">
 			<?php wdp_slider(1); ?>
 		</div>
@@ -35,12 +35,12 @@ function post_slider(){
 					</a>
 				</div>
 				<div class="uk-width-1-3">
-						<a href="#" class="link-sub">
-							<div class="square">
-								<i class="uk-icon-calendar uk-icon-large"></i>
-								<p>Eventos</p>
-							</div>
-						</a>
+					<a href="#" class="link-sub">
+						<div class="square">
+							<i class="uk-icon-calendar uk-icon-large"></i>
+							<p>Eventos</p>
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="uk-grid line-1">
