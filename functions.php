@@ -98,7 +98,7 @@ function apipa_pre_header(){
 			<div class="uk-grid">
 				<div class="uk-width-1-3">
 					<div class="icon"><i class="uk-icon-map-marker uk-icon-large"></i></div>
-					<div class="text"><p>Rua Arêa Leão, Nº 1064, Nossa Senhora das Graças, Teresina - PI</p></div>
+					<div class="text"><p>Rua Arêa Leão, Nº 1084, Nossa Senhora das Graças, Teresina - PI</p></div>
 				</div>
 				<div class="uk-width-1-3 dotted">
 					<p class="p-icon"><i class="uk-icon-phone uk-icon-large"></i></p>
@@ -106,7 +106,7 @@ function apipa_pre_header(){
 				</div>
 				<div class="uk-width-1-3 dotted links">
 					<a href="#"><i class="uk-icon-twitter uk-icon-medium link"></i></a>
-					<a href="#"><i class="uk-icon-facebook uk-icon-medium link"></i></a>
+					<a href="https://www.facebook.com/Apipa-Associa%C3%A7%C3%A3o-Piauiense-Dos-Produtores-De-Algodao-1069397533108718/?fref=ts" target="_blank"><i class="uk-icon-facebook uk-icon-medium link"></i></a>
 					<a href="#"><i class="uk-icon-google-plus uk-icon-medium link"></i></a>
 				</div>
 			</div>
@@ -153,7 +153,9 @@ beans_modify_action_callback( 'beans_footer_content', 'apipa_footer' );
 function apipa_footer() {
 	?>
 	<div class="logo uk-container uk-container-center">
-		<?php beans_site_branding(); ?>
+		<div class="uk-clearfix">
+			<img class="uk-align-center" src="<?php bloginfo('stylesheet_directory');?>/assets/images/filiada.png" alt="">
+		</div>
 	</div>
 	<div class="menu">
 		<?php /* beans_primary_menu();*/ ?>
@@ -170,10 +172,10 @@ function apipa_footer() {
 		?>
 	</div>
 	<div class="social">
-		<div class="uk-grid">
-			<div class=".uk-width-1-1 footer-links">
+		<div class="uk-grid uk-container">
+			<div class="uk-width-1-1 uk-container-center footer-links">
 				<a href="#"><div class="link-border"><i class="uk-icon-twitter uk-icon-medium"></i></div></a>
-				<a href="#"><div class="link-border"><i class="uk-icon-facebook uk-icon-medium"></i></div></a>
+				<a href="https://www.facebook.com/Apipa-Associa%C3%A7%C3%A3o-Piauiense-Dos-Produtores-De-Algodao-1069397533108718/?fref=ts" target="_blank"><div class="link-border"><i class="uk-icon-facebook uk-icon-medium"></i></div></a>
 				<a href="#"><div class="link-border"><i class="uk-icon-google-plus uk-icon-medium"></i></div></a>
 				<!--<div class="up-link">-->
 					<a href="#" class="up-link"><i class="uk-icon-chevron-up "></i></a>
