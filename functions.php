@@ -171,7 +171,7 @@ function apipa_footer() {
 		) );
 		?>
 	</div>
-	<div class="social">
+	<div class="social uk-container uk-container-center">
 		<div class="uk-grid uk-container">
 			<div class="uk-width-1-1 uk-container-center footer-links">
 				<a href="#"><div class="link-border"><i class="uk-icon-twitter uk-icon-medium"></i></div></a>
