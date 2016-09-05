@@ -273,3 +273,17 @@ hr{
   color: #fff;
   background-color: #4cAf50;
 }
+/* Páginas */
+.header-pages{
+  text-align: center;
+  height:200px;
+  background-color: #ddd;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header-pages .uk-article-title{
+  padding-top: 50px;
+  color: #fff;
+}
+.header-pages .uk-breadcrumb li, .uk-breadcrumb a{
+  color: #fff;
+}
