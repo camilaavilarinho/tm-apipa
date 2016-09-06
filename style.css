@@ -147,8 +147,8 @@ div .text{
 }
 @media only screen and (max-width: 768px) {
   .table{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10;
+    padding-right: 10;
   }
 }
 
