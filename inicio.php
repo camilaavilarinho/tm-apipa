@@ -14,10 +14,10 @@ function post_slider(){
 	?>
 	<div class="uk-grid section-slider">
 		<div class="uk-width-medium-6-10">
-			<?php wdp_slider(1); ?>
+			<div class="slider"><?php wdp_slider(1); ?></div>
 		</div>
 		<div class="uk-width-medium-4-10 sub-pages">
-			<div class="uk-grid line-1">
+			<div class="uk-grid uk-container-center">
 				<div class="uk-width-1-3">
 					<a href="#" class="link-sub">
 						<div class="square">
@@ -43,7 +43,7 @@ function post_slider(){
 					</a>
 				</div>
 			</div>
-			<div class="uk-grid line-1">
+			<div class="uk-grid uk-container-center">
 				<div class="uk-width-1-3">
 					<a href="#" class="link-sub">
 						<div class="square">
